@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Just the Facts",
+    "version": "1.0",
+    "description": "Returns the facts on a given page.",
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
