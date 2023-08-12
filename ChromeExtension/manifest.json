@@ -5,7 +5,8 @@
     "description": "Returns the facts on a given page.",
     "permissions": [
       "activeTab",
-      "tabs"
+      "tabs",
+      "storage"
     ],
     "background": {
       "service_worker": "background.js"
@@ -14,6 +15,9 @@
       "default_popup": "popup.html"
     },
     "icons": {
+      "16": "img/1.png",
+      "48": "img/1.png",
+      "128": "img/1.png"
     },
     "content_scripts": [
       {

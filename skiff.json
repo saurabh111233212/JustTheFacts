@@ -1,0 +1,6 @@
+{
+    "appName": "just-the-facts",
+    "contact": "paos",
+    "team": "s2research",
+    "replicas": { "prod": 1 }
+}
